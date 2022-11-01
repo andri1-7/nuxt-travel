@@ -41,7 +41,7 @@ export default function header() {
               " " +
               (navbar
                 ? "flex items-center justify-center h-screen w-full inset-0 opacity-100 visible fixed bg-black"
-                : "hidden opacity-0 h-0 invisible ")
+                : "hidden opacity-0 h-0")
             }
           >
             <ul className="flex items-center flex-col lg:flex-row gap-y-6 lg:gap-y-0">

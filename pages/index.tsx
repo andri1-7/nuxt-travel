@@ -10,19 +10,19 @@ export default function IndexPage() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex">
           <div className="w-6/12 pt-52">
-            <h1 className="text-accent-2 font-bold text-xl uppercase mb-6">
+            <h1 className="text-accent-2 font-bold text-sm lg:text-xl uppercase mb-6">
               Best Destinations around the world
             </h1>
-            <h2 className="text-gray-900 font-serif text-[84px] leading-[89px] tracking-tighter mb-8">
+            <h2 className="text-gray-900 font-serif text-xl lg:text-[84px] leading-tight lg:leading-[89px] tracking-tighter mb-8">
               Travel, enjoy and live a new and full life
             </h2>
-            <p className="text-gray-500 max-w-lg leading-8">
+            <p className="text-gray-500 max-w-lg text-sm lg:text-base leading-6 lg:leading-8">
               Built Wicket longer admire do barton vanity itself do in it.
               Preferred to sportsmen it engrossed listening. Park gate sell they
               west hard for the.
             </p>
           </div>
-          <div className="w-6/12 pt-24 relative">
+          <div className="hidden lg:block w-6/12 pt-24 relative">
             <div className="relative z-20 transform translate-x-16">
               <Image
                 priority
